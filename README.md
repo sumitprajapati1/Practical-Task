@@ -36,7 +36,7 @@ Clone the repository to your local machine using the following command:
 
 ```bash
 git clone https://github.com/sumitprajapati1/Practical-Task.git
-
+```
 ### 2. Enter this commands to run the projects (frontend) :
 
 ```bash
@@ -44,7 +44,7 @@ cd frontend
 
 ```bash
 npm start
-
+```
 ### 3. Enter this commands to run the project (backend):
 
 ```bash
