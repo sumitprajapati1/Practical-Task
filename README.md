@@ -1,6 +1,4 @@
-# Client Interactions App
-
-This is a full-stack web application designed to manage and store client interaction data such as meeting types, dates, and notes. The application consists of a **frontend** built with **React** and a **backend** using **Node.js**, **Express**, and **MongoDB**. It allows users to add interaction data and view a list of previous interactions.
+This is a full-stack web application designed to manage and store data such as meeting types, dates, and notes. The application consists of a **frontend** built with **React** and a **backend** using **Node.js**, **Express**, and **MongoDB**. It allows users to add interaction data and view a list of previous interactions.
 
 ## Features
 - Add new interactions with details like user name, meeting type, date, and notes.
@@ -37,21 +35,16 @@ Clone the repository to your local machine using the following command:
 ```bash
 git clone https://github.com/sumitprajapati1/Practical-Task.git
 ```
-### 2. Enter this commands to run the projects (frontend) :
+### 2. Enter this commands to run the projects (frontend part) :
 
 ```bash
 cd frontend
-
-```bash
 npm start
 ```
-### 3. Enter this commands to run the project (backend):
+### 3. Enter this commands to run the project (backend part):
 
 ```bash
 cd..
-
-```bash
 cd backend
-
-```bash
 node server.js
+```
