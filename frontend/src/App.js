@@ -18,7 +18,7 @@ const App = () => {
 
   const fetchData = async () => {
     try {
-      const response = await axios.get("http://localhost:5000/interactions");
+      const response = await axios.get("https://practical-task-oa5t.onrender.com/interactions");
       setInteractions(response.data);
     } catch (error) {
       console.error("Error fetching data", error);
@@ -49,7 +49,7 @@ const App = () => {
     if (!validateForm()) return;
 
     try {
-      await axios.post("http://localhost:5000/interactions", formData);
+      await axios.post("https://practical-task-oa5t.onrender.com/interactions", formData);
       setFormData({ userName: "", meetingType: "Call", meetingDate: "", notes: "" });
       fetchData();
     } catch (error) {
