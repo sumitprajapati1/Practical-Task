@@ -8,7 +8,7 @@ const app = express();
 
 app.use(express.json());
 app.use(cors({
-  origin:"https://practical-task-fawn.vercel.app",
+  origin:"https://practical-task-rho.vercel.app",
   methods: 'GET,POST,PUT,DELETE',
 }));
 
