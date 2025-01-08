@@ -7,7 +7,10 @@ const dotenv = require("dotenv");
 const app = express();
 
 app.use(express.json());
-app.use(cors());
+app.use(cors({
+  origin:"https://practical-task-fawn.vercel.app/",
+  methods: 'GET,POST,PUT,DELETE',
+}));
 
 
 connectDB();
