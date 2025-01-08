@@ -2,7 +2,7 @@
   "name": "project",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:5000",
+  "proxy": "https://practical-task-oa5t.onrender.com",
   "dependencies": {
     "axios": "^1.7.9",
     "bootstrap": "^5.3.3",
